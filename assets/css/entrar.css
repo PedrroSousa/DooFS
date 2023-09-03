@@ -1,0 +1,82 @@
+body {
+    background-color: var(--cor-background);
+}
+
+.header {
+    background-color: var(--cor-primaria);
+
+    width: 100%;
+    height: 12.5rem;
+}
+
+.header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 700;
+    font-size: 3.25rem;
+    color: var(--cor-fonte-light);
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--cor-fonte-light);
+
+    margin: 10px;
+}
+
+.link-cadastro {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--cor-fonte-light);
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4.5rem;
+}
+
+.label-float {
+    padding: 1rem;
+}
+
+input {
+    border: none;
+    border-radius: 2.5rem;
+    height: 3.438rem;
+    width: 19rem;
+    padding-left: 1.25rem;
+}
+
+button {
+    background-color: #056FB9;
+    color: var(--cor-fonte-light);
+
+    border: solid 1px var(--cor-primaria-dark);
+    border-radius: 1.25rem;
+
+    width: 130px;
+    height: 50px;
+    margin-left: 7.5rem;
+    margin-top: 3rem;
+
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 67px;
+    margin-top: 100px;
+    background-color: var(--cor-primaria);
+}
+
+.logo {
+    padding: 1.5rem;
+    cursor: pointer;
+}

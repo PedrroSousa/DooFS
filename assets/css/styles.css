@@ -1,8 +1,12 @@
 @import url("./header.css");
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
 :root {
     --cor-primaria:#960034;
     --cor-background:rgb(150, 0, 52, 50%);
     --cor-fonte-light:#ffffff;
+    --cor-primaria-dark:#0F0F0F;
 }
