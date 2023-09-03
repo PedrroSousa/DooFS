@@ -90,8 +90,24 @@ button.criar-conta-btn a {
         padding: 1.5rem 4rem;
     }
 
+    .login-criar-conta {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 22px;
+    }
+
+    .login-criar-conta.entrar {
+        margin-bottom: 22px;
+    }
+
     .nav-item {
         display: none;
+    }
+
+    .nav-item-mobile {
+        margin-bottom: 2.5rem;
+
+        font-family: 'Ubuntu', sans-serif;
     }
 
     .entrar {
@@ -117,6 +133,7 @@ button.criar-conta-btn a {
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        margin-top: 67px;
     }
 
     .mobile-menu .nav-item {
