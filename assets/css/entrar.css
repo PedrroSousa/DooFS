@@ -59,7 +59,7 @@ input {
 }
 
 button {
-    background-color: #056FB9;
+    background-color: var(--cor-entrar-btn);
     color: var(--cor-fonte-light);
 
     border: solid 1px var(--cor-primaria-dark);
@@ -71,6 +71,12 @@ button {
     margin-top: 3rem;
 
     cursor: pointer;
+    transition: 0.7s;
+}
+
+button:hover {
+    background-color: var(--cor-primaria);
+
 }
 
 footer {

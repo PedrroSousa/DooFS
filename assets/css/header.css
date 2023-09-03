@@ -43,14 +43,32 @@ button.entrar {
 
     padding: 10px 24px;
     margin-right: 2.188rem;
+    cursor: pointer;
+    transition: 0.6s;
 }
 
+button.entrar:hover {
+    background-color: var(--cor-entrar-btn);
+    color: var(--cor-fonte-light);
+}
+
+
+button.entrar a:hover {
+    color: var(--cor-fonte-light);
+}
 button.criar-conta-btn {
     border: solid var(--cor-fonte-light);
     border-radius: 2.5rem;
-    background-color: var(--cor-fonte-light);
+    background-color: var(--cor-entrar-btn);
 
     padding: 0.625rem 1.5rem;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+button.criar-conta-btn:hover {
+    background-color: var(--cor-primaria);
+    color: var(--cor-fonte-light);
 }
 
 button.entrar a {
@@ -62,9 +80,16 @@ button.entrar a {
 
 button.criar-conta-btn a {
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: var(--cor-fonte-light);
     font-weight: 500;
+    z-index: 0;
 }
+
+
+button.criar-conta-btn a:hover {
+    color: var(--cor-fonte-light);
+}
+
 
 .mobile-menu-icon {
     display: none;
