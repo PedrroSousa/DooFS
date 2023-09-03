@@ -9,4 +9,3 @@ function abrirMenu () {
     }
 }
 document.querySelector('#mobile-menu-icon').onclick = abrirMenu;
-

@@ -13,31 +13,32 @@
     <div class="header">
         <h1 class="center"><span>Doo</span><br>Filmes e Séries</h1>
             <p class="center">Já tem uma conta?<a href="entrar.html" class="link-cadastro">Iniciar Sessão!</a></p>
+
     </div>
 
     <div class="container">
         <div class="label-float center">
             <input type="text" id="nome" placeholder="Nome">
-            <label for="nome"></label>
+            <label for="nome" id="nome-label"></label>
         </div>
 
         <div class="label-float center">
             <input type="email" id="email" placeholder="Email">
-            <label for="email"></label>
+            <label for="email" id="email-label"></label>
         </div>
 
         <div class="label-float center">
             <input type="password" id="senha" placeholder="Criar Senha">
-            <label for="senha"></label>
+            <label for="senha" id="senha-label"></label>
         </div>
 
         <div class="label-float center">
             <input type="password" id="confirmar-senha" placeholder="Confirmar Senha">
-            <label for="confirmar-senha"></label>
+            <label for="confirmar-senha" id="confirmar-senha-label"></label>
         </div>
 
         <div class="criar-btn center">
-            <button>Criar Conta</button>
+            <button type="submit" id="criar">Criar Conta</button>
         </div>
     </div>
 
@@ -46,5 +47,7 @@
             <a href="index.html"><img src="./assets/img/Doo-Logo.svg" alt="Logo DooFS"></a>
         </div>
     </footer>
+
+    <script src="./assets/js/cadastro.js"></script>
 </body>
 </html>

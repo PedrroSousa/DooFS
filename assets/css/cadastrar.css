@@ -1,5 +1,5 @@
 body {
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-primaria-dark);
 }
 
 .header {
@@ -54,7 +54,6 @@ input {
     height: 3.438rem;
     width: 19rem;
     padding-left: 1.25rem;
-    outline: none;
 }
 
 button {
