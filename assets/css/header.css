@@ -1,0 +1,143 @@
+header {
+    background-color: var(--cor-primaria);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family: 'Ubuntu';
+}
+
+.nav-item {
+    margin: 0 0.938rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: var(--cor-fonte-light);
+    font-weight: 400;
+}
+
+button.entrar {
+    border: solid var(--cor-fonte-light);
+    border-radius: 2.5rem;
+    background-color: var(--cor-primaria);
+
+    padding: 10px 24px;
+    margin-right: 2.188rem;
+}
+
+button.criar-conta-btn {
+    border: solid var(--cor-fonte-light);
+    border-radius: 2.5rem;
+    background-color: var(--cor-fonte-light);
+
+    padding: 0.625rem 1.5rem;
+}
+
+button.entrar a {
+    text-decoration: none;
+    color: var(--cor-fonte-light);
+
+    font-weight: 500;
+}
+
+button.criar-conta-btn a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-weight: 500;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 865px){
+    button.entrar {
+        border: solid var(--cor-fonte-light);
+        border-radius: 2.5rem;
+        background-color: var(--cor-primaria);
+    
+        padding: 10px 24px;
+        margin-right: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 792px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .entrar {
+        display: none;
+    }
+
+    .criar-conta-btn {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu-mobile ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .menu-mobile .entrar {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .menu-mobile .entrar button {
+        width: 100%;
+    }
+    .menu-mobile .criar-conta-btn {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .menu-mobile .criar-conta-btn button {
+        width: 100%;
+    }
+}
