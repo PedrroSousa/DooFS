@@ -140,4 +140,8 @@ button.criar-conta-btn a {
     .menu-mobile .criar-conta-btn button {
         width: 100%;
     }
+
+    .open {
+        display: block;
+    }
 }
