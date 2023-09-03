@@ -8,3 +8,5 @@ function abrirMenu () {
         document.querySelector('.mobile-menu-icon').src = "./assets/img/menu-icon.svg";
     }
 }
+document.querySelector('#mobile-menu-icon').onclick = abrirMenu;
+

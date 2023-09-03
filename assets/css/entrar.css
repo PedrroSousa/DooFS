@@ -63,7 +63,7 @@ button {
     background-color: var(--cor-entrar-btn);
     color: var(--cor-fonte-light);
 
-    border: solid 1px var(--cor-primaria-dark);
+    border: solid 1px var(--cor-fonte-light);
     border-radius: 1.25rem;
 
     width: 130px;
