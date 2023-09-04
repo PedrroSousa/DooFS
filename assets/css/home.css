@@ -1,0 +1,24 @@
+.img1 {
+    position: relative;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img2 {
+    position: relative;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    background-color: var(--cor-primaria);
+}
+
