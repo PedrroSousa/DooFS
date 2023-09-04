@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px;
+}
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--cor-primaria-dark);
+
+    margin: 30px;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px;
+}
+
+button {
+    background-color: var(--cor-primaria-dark);
+    color: var(--cor-fonte-light);
+
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    font-size: large;
+}
