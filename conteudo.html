@@ -8,12 +8,46 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/conteudo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
-    <h1>Página em Desenvolvimeto!</h1>
+
+    <h1>Page Filmes</h1>
+    <form action="">
+        <input type="search" name="busca" id="busca" placeholder="Buscar">
+        <button class="busca-btn" type="submit"><i class="bi bi-search"></i></button>
+    </form>
+
+    <div id="msgError"></div>
+
+    <div class="lista-item">
+        <div class="item">
+            <h2>Vingadores A Origem</h2>
+            <img src="https://m.media-amazon.com/images/M/MV5BZjY4NDJiMDUtMzJhMS00NDIxLWE2ODUtNjIwMDRmODgzM2U0XkEyXkFqcGdeQXVyNTAzMjA2MDQ@._V1_SX300.jpg"" alt="Poster Oficial" srcset="">
+        </div>
+
+        <div class="item">
+            <h2>Supernatural</h2>
+            <img src="https://m.media-amazon.com/images/M/MV5BNzRmZWJhNjUtY2ZkYy00N2MyLWJmNTktOTAwY2VkODVmOGY3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" alt="Poster oficial" srcset="">
+        </div>
+
+        <div class="item">
+            <h2>Supernatural: The Animation</h2>
+            <img src="https://m.media-amazon.com/images/M/MV5BNDljNDlkZjctNDFlZi00ZjNjLTkxNDQtOTI5MzY1MGIzNGQ4XkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_SX300.jpg" alt="Poster Oficial" srcset="">
+        </div>
+
+        <div class="item">
+            <h2>Batman v Superman: Dawn of Justice</h2>
+            <img src="https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg" alt="Poster Oficial" srcset="">
+        </div>
+    </div>
+
+
+
+
+
     <h2 id="logado"></h2>
-    <p>Desculpe!</p>
-    <button id="sair-btn">Sair</button>
+    <button class="sair-btn" id="sair-btn">Sair</button>
 
     <script src="./assets/js/conteudo.js"></script>
 </body>

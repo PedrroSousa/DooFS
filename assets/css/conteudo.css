@@ -6,18 +6,19 @@ body {
     padding: 30px;
 }
 h1 {
+    font-weight: 700;
+    font-size: large;
     font-family: 'Ubuntu', sans-serif;
     color: var(--cor-primaria-dark);
 
     margin: 30px;
 }
 
-p {
-    font-family: 'Ubuntu', sans-serif;
-    margin: 20px;
+h2 {
+    color: #fff;
 }
 
-button {
+button.sair-btn {
     background-color: var(--cor-primaria-dark);
     color: var(--cor-fonte-light);
 
@@ -25,4 +26,58 @@ button {
     border: none;
     border-radius: 40px;
     font-size: large;
+    transition: .6s;
+}
+
+button.sair-btn:hover {
+    background-color: var(--cor-entrar-btn);
+}
+
+button.busca-btn {
+    background-color: white;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    transition: .6s;
+}
+
+button.busca-btn:hover {
+    background-color: blue;
+}
+
+form {
+    background-color: brown;
+    padding: 20px;
+}
+
+.lista-item {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 20px;
+    margin: 0 10px 0 10px 0;
+    background-color: var(--cor-primaria-dark);
+    transition: .6s;
+}
+
+.item:hover {
+    background-color: var(--cor-primaria);
+
+}
+
+i {
+    color: #000;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    outline: none;
 }
